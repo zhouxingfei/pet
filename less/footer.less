@@ -1,0 +1,163 @@
+.footer-content{
+    background-color: #f5f5f5;
+    .footer-top{
+        width: 1200px;
+        margin: auto;
+        ul{
+            width: 1200px;
+            margin: 0 auto;
+            padding: 19px 0;
+            display: flex;
+            justify-content: center;
+            li{
+                a{
+                    display: block;
+                    width: 128px;
+                    height: 62px;
+                    padding-left: 72px;
+                    line-height: 62px;
+                    color: #444;
+                    font-weight: 700;
+                    transition: all .8s ease;
+                    -webkit-transition: all .8s ease;
+                    font-size: 18px;
+                }
+                a:hover{
+                    transform: translateY(-5px);
+                    color: red;
+                }
+            }
+            li:nth-child(1) a{
+                background-position: 0px 0px;
+            }
+            li:nth-child(2) a{
+                background-position: 0px -162px;
+            }
+            li:nth-child(3) a{
+                background-position: 0px -242px;
+            }
+            li:nth-child(4) a{
+                background-position: 0px -82px;
+            }
+            li:nth-child(5) a{
+                background-position: 0px -322px;
+            }
+            li:nth-child(6) a{
+                background-position: 0px -402px;
+            }
+
+        }
+    }
+}
+.logobg{
+    background: url(../images/logo.png) no-repeat;
+}
+.footer-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    .myinfo{
+        padding-bottom: 25px;
+        border-bottom: 1px solid #e5e5e5;
+        display: flex;
+        justify-content: start;
+        .footer-phone{
+            padding-right: 20px;
+            margin-right: 20px;
+            width: 372px;
+            height: 113px;
+            display: flex;
+            img{
+                margin-top: 5px;
+            }
+            .footer-number{
+                font-weight: 700;
+                color: #666;
+                font-size: 14px;
+                margin-left: 30px;
+                p{
+                    font-weight: 500;
+                    font-size: 18px;
+                    height: 35px;
+                    line-height: 35px;
+                }
+                p:nth-child(4){
+                    font-size: 12px;
+                }
+            }
+        }
+        .pay-style,.shopping-guide{
+            margin-right: 50px;
+            margin-left: 40px;
+            p{
+                color: #444;
+                font-size: 14px;
+                margin-top: 10px;
+            }
+        }
+        .shopping-guide{
+            margin-left: 20px;
+            margin-right: 50px;
+        }
+        .app-code,.wx-code{
+            margin-left: 50px;
+            text-align: center;
+        }
+        .wx-code{
+            margin-left: 150px;
+        }
+        
+        
+    }
+    .flink{
+        text-align: center;
+        margin-top: 15px;
+        span{
+            a{
+                margin-right: 15px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .support{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-copy{
+        margin-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+  
+}
+.rtbar{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 35px;
+    z-index: 5005;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    height: 100%;
+    background-color: #444;
+    .rtcont {
+        position: relative;
+        height: 100%;
+        ul{
+            height: 472px;
+            top: 30px;
+            padding-top: 10px;
+            position: relative;
+            li:nth-child(1) a {
+                display: block;
+                width: 35px;
+                height: 35px;
+               
+                color: #444;
+            }
+        }
+    }
+}
+.left-img{
+    background: url(https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png) no-repeat;
+}

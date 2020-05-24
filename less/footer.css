@@ -1,0 +1,157 @@
+.footer-content {
+  background-color: #f5f5f5;
+}
+.footer-content .footer-top {
+  width: 1200px;
+  margin: auto;
+}
+.footer-content .footer-top ul {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 19px 0;
+  display: flex;
+  justify-content: center;
+}
+.footer-content .footer-top ul li a {
+  display: block;
+  width: 128px;
+  height: 62px;
+  padding-left: 72px;
+  line-height: 62px;
+  color: #444;
+  font-weight: 700;
+  transition: all 0.8s ease;
+  -webkit-transition: all 0.8s ease;
+  font-size: 18px;
+}
+.footer-content .footer-top ul li a:hover {
+  transform: translateY(-5px);
+  color: red;
+}
+.footer-content .footer-top ul li:nth-child(1) a {
+  background-position: 0px 0px;
+}
+.footer-content .footer-top ul li:nth-child(2) a {
+  background-position: 0px -162px;
+}
+.footer-content .footer-top ul li:nth-child(3) a {
+  background-position: 0px -242px;
+}
+.footer-content .footer-top ul li:nth-child(4) a {
+  background-position: 0px -82px;
+}
+.footer-content .footer-top ul li:nth-child(5) a {
+  background-position: 0px -322px;
+}
+.footer-content .footer-top ul li:nth-child(6) a {
+  background-position: 0px -402px;
+}
+.logobg {
+  background: url(../images/logo.png) no-repeat;
+}
+.footer-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.footer-wrapper .myinfo {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: start;
+}
+.footer-wrapper .myinfo .footer-phone {
+  padding-right: 20px;
+  margin-right: 20px;
+  width: 372px;
+  height: 113px;
+  display: flex;
+}
+.footer-wrapper .myinfo .footer-phone img {
+  margin-top: 5px;
+}
+.footer-wrapper .myinfo .footer-phone .footer-number {
+  font-weight: 700;
+  color: #666;
+  font-size: 14px;
+  margin-left: 30px;
+}
+.footer-wrapper .myinfo .footer-phone .footer-number p {
+  font-weight: 500;
+  font-size: 18px;
+  height: 35px;
+  line-height: 35px;
+}
+.footer-wrapper .myinfo .footer-phone .footer-number p:nth-child(4) {
+  font-size: 12px;
+}
+.footer-wrapper .myinfo .pay-style,
+.footer-wrapper .myinfo .shopping-guide {
+  margin-right: 50px;
+  margin-left: 40px;
+}
+.footer-wrapper .myinfo .pay-style p,
+.footer-wrapper .myinfo .shopping-guide p {
+  color: #444;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.footer-wrapper .myinfo .shopping-guide {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+.footer-wrapper .myinfo .app-code,
+.footer-wrapper .myinfo .wx-code {
+  margin-left: 50px;
+  text-align: center;
+}
+.footer-wrapper .myinfo .wx-code {
+  margin-left: 150px;
+}
+.footer-wrapper .flink {
+  text-align: center;
+  margin-top: 15px;
+}
+.footer-wrapper .flink span a {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.footer-wrapper .support {
+  margin-top: 20px;
+  text-align: center;
+}
+.footer-wrapper .footer-copy {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.rtbar {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 35px;
+  z-index: 5005;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  height: 100%;
+  background-color: #444;
+}
+.rtbar .rtcont {
+  position: relative;
+  height: 100%;
+}
+.rtbar .rtcont ul {
+  height: 472px;
+  top: 30px;
+  padding-top: 10px;
+  position: relative;
+}
+.rtbar .rtcont ul li:nth-child(1) a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  color: #444;
+}
+.left-img {
+  background: url(https://static.epetbar.com/static_web/pc/dist/images/background/bar_new.png) no-repeat;
+}
